@@ -1,5 +1,5 @@
-import displayTheme from './displayTheme';
-import displayArticle from './displayArticle';
+import displayTheme from './displayTheme.js';
+import displayArticle from './displayArticle.js';
 
 let params = [];
 

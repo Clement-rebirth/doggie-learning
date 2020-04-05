@@ -1,4 +1,4 @@
-import articles from './articles';
+import articles from './articles.js';
 
 export default function displayArticle(articleSlug) {
     let article = getArticleWithSlug(articleSlug, articles);

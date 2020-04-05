@@ -1,4 +1,4 @@
-import themes from './themes';
+import themes from './themes.js';
 
 const themeImagesPath = '../assets/img/themes/';
 

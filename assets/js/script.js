@@ -1,5 +1,5 @@
-import themes from './themes';
-import articles from './articles';
+import themes from './themes.js';
+import articles from './articles.js';
 
 // themes
 const themeImagesPath = 'assets/img/themes/';
