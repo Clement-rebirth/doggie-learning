@@ -298,3 +298,95 @@ a.footer-elt:hover:after {
 .article .date {
     font-size: 1rem;
 }
+
+@media all and (max-width: 755px) {
+    .footer-container .footer-elt {
+        margin: 0 15px;
+    }
+}
+
+@media all and (max-width: 700px) {
+    #home h1 {
+        font-size: 4rem;
+    }
+
+    .article {
+        width: auto;
+    }
+
+    .article .content {
+        margin-right: 0;
+    }
+
+    .article img {
+        display: none;
+    }
+}
+
+@media all and (max-width: 620px) {
+    footer {
+        padding: 25px 30px;
+    }
+
+    .footer-container {
+        display: block;
+    }
+
+    .footer-container .footer-elt {
+        margin: 0;
+    }
+
+    .footer-container .footer-elt:last-child {
+        margin-top: 10px;
+    }
+
+    .footer-container {
+        text-align: center;
+    }
+
+    a.footer-elt {
+        padding: 0;
+    }
+}
+
+@media all and (max-width: 580px) {
+    #home h1 {
+        font-size: 3rem;
+    }
+
+    #home h2 {
+        font-size: 1.6rem;
+    }
+
+    #home-page section:not(#home) {
+        padding: 25px 30px 25px 30px;
+    }
+
+    #articles {
+        margin-top: 18px;
+    }
+}
+
+@media all and (max-width: 500px) {
+    #home h1 {
+        font-size: 2.5rem;
+    }
+
+    #home h2 {
+        font-size: 1.4rem;
+    }
+}
+
+@media all and (max-width: 355px) {
+    #home {
+        padding: 0 20px;
+    }
+
+    #home h1 {
+        font-size: 2.3rem;
+    }
+
+    #home h2 {
+        font-size: 1.3rem;
+    }
+}

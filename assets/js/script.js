@@ -5,7 +5,7 @@ import articles from './articles.js';
 const themeImagesPath = 'assets/img/themes/';
 
 let themesContainer = document.getElementById('themes');
-let gradient = 'linear-gradient(180deg, rgba(0,0,0,0.3) 0%, rgba(0,0,0,0.3) 100%)';
+let gradient = 'linear-gradient(180deg, rgba(0,0,0,0.4) 0%, rgba(0,0,0,0.4) 100%)';
 
 themes.forEach(theme => {
     let aElt = document.createElement('a');
