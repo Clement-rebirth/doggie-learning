@@ -35,7 +35,7 @@ articles.forEach(article => {
         <img src="${articleImagesPath}${article.image}" alt="${article.imageInfo}">
     `;
     
-    aElt.href = `articles?a=${article.slug}`;
+    aElt.href = `articles/?a=${article.slug}`;
     aElt.classList.add('article');
     articlesContainer.appendChild(aElt);
 });
