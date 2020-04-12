@@ -200,7 +200,7 @@ let themes = [
         }
     },
     {
-        title: "Solitude/dépression",
+        title: "Solitude / dépression",
         description: "Et oui cela n'arrive pas qu'à nous...",
         image: "sad-face-husky-sm.jpg",
         slug: "solitude-et-depression",
