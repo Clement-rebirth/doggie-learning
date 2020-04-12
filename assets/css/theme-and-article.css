@@ -221,10 +221,10 @@ div.hr {
         margin-right: 20px;
     }
 
-    .card-title {
-        /* word-break: break-all; */
-        /* white-space: normal; */
-    }
+    /* .card-title {
+        word-break: break-all;
+        white-space: normal;
+    } */
 
     body:not(#home-page) section,
     #article-content {
