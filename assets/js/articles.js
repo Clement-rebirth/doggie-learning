@@ -20,7 +20,7 @@ let articles = [
             <li>s'accroupir</li>
             <li>caresser le côté ou le dos</li>
             </ul>
-            <h3 id="ilnefautpas">Il ne faut pas</h3>
+            <h3>Il ne faut pas</h3>
             <ul>
             <li>le fixer droit dans les yeux</li>
             <li>crier ou parler trop fort près de lui</li>

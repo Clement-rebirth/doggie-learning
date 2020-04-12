@@ -184,3 +184,87 @@ div.hr {
 #sources a:hover {
     color: rgb(255, 71, 71);
 }
+
+@media all and (max-width: 900px) {
+    header {
+        display: block;
+        margin: 20px 0 45px;
+    }
+    
+    .card-content {
+        text-align: center;
+        margin-left: 0;
+        margin-top: 10px;
+    }
+    
+    .card-image img {
+        margin: 0 auto;
+    }
+    
+    .card-title {
+        line-height: 1;
+    }
+
+    .card-title:after {
+        display: none;
+    }
+
+    .card-description {
+        margin-top: 10px;
+    }
+}
+
+@media all and (max-width: 600px) {
+    .card {
+        max-width: 100%;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .card-title {
+        /* word-break: break-all; */
+        /* white-space: normal; */
+    }
+
+    body:not(#home-page) section,
+    #article-content {
+        padding: 30px 40px 40px 40px;
+    }
+
+    .resource-title {
+        margin-top: 20px;
+    }
+
+    #article-content,
+    #sources {
+        width: 75%;
+    }
+}
+
+@media all and (max-width: 450px) {
+    .return {
+        top: 0;
+        left: 5px;
+    }
+
+    header {
+        margin: 20px 0 25px;
+    }
+
+    .card-title {
+        font-size: 2.4rem;
+    }
+
+    body:not(#home-page) section {
+        padding: 20px 30px;
+    }
+
+    #article-content {
+        padding: 15px;
+    }
+
+    #article-content,
+    #sources {
+        width: 80%;
+    }
+}

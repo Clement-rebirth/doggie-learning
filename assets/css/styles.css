@@ -299,6 +299,12 @@ a.footer-elt:hover:after {
     font-size: 1rem;
 }
 
+@media all and (max-width: 850px) {
+    #container {
+        margin-top: -100px;
+    }
+}
+
 @media all and (max-width: 755px) {
     .footer-container .footer-elt {
         margin: 0 15px;
@@ -328,6 +334,10 @@ a.footer-elt:hover:after {
         padding: 25px 30px;
     }
 
+    a.footer-elt:after {
+        display: none;
+    }
+
     .footer-container {
         display: block;
     }
@@ -351,11 +361,11 @@ a.footer-elt:hover:after {
 
 @media all and (max-width: 580px) {
     #home h1 {
-        font-size: 3rem;
+        font-size: 3.2rem;
     }
 
     #home h2 {
-        font-size: 1.6rem;
+        font-size: 1.8rem;
     }
 
     #home-page section:not(#home) {
@@ -369,11 +379,11 @@ a.footer-elt:hover:after {
 
 @media all and (max-width: 500px) {
     #home h1 {
-        font-size: 2.5rem;
+        font-size: 2.7rem;
     }
 
     #home h2 {
-        font-size: 1.4rem;
+        font-size: 1.5rem;
     }
 }
 
@@ -383,10 +393,10 @@ a.footer-elt:hover:after {
     }
 
     #home h1 {
-        font-size: 2.3rem;
+        font-size: 2.5rem;
     }
 
     #home h2 {
-        font-size: 1.3rem;
+        font-size: 1.4rem;
     }
 }

@@ -1,7 +1,7 @@
 import themes from './themes.js';
 import articles from './articles.js';
 
-// themes
+// display all themes
 const themeImagesPath = 'assets/img/themes/';
 
 let themesContainer = document.getElementById('themes');
@@ -14,12 +14,12 @@ themes.forEach(theme => {
         <p class="theme-summary">${theme.description}</p>`;
     
     aElt.classList.add('theme');
-    aElt.href = `themes?t=${theme.slug}`;
+    aElt.href = `themes/?t=${theme.slug}`;
     aElt.style.backgroundImage = `${gradient}, url('${themeImagesPath}${theme.image}')`;
     themesContainer.appendChild(aElt);
 });
 
-// articles
+// display all articles
 const articleImagesPath = 'assets/img/articles/' ;
 
 let articlesContainer = document.getElementById('articles');
